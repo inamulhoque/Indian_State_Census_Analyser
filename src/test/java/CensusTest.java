@@ -15,7 +15,7 @@ public class CensusTest {
         try {
             Census census = new Census();
             int numOfRecords = census.loadData(INDIA_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(33, numOfRecords);
+            Assert.assertEquals(37, numOfRecords);
         }
         catch (CensusException e) {
             e.printStackTrace();
